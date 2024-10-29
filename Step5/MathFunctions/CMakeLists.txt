@@ -43,7 +43,7 @@ if(TARGET SqrtLibrary)
   list(APPEND installable_libs SqrtLibrary)
   message(STATUS "installable_libs: ${installable_libs}")
 endif()
-# install(TARGETS ${installable_libs} DESTINATION lib)
+install(TARGETS ${installable_libs} DESTINATION lib)
 
 # TODO 2: Install the library headers to the include folder.
 # Hint: Use the FILES and DESTINATION parameters
